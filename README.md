@@ -1,6 +1,6 @@
 # StreamAMG Tech Test
 
-Tech test - I was asked to build the hero elements & navbar for a boxing website using React.
+Tech test - I was asked to build the hero elements & navbar for a boxing website using React. This includes animations on load and on scroll, and is fully responsive to fit on all screen sizes.
 
 ## To install
 
