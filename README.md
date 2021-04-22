@@ -1,6 +1,6 @@
 # StreamAMG Tech Test
 
-Tech test - I was asked to build the hero elements & navbar for a boxing website.
+Tech test - I was asked to build the hero elements & navbar for a boxing website using React.
 
 ## To install
 
