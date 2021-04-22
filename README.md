@@ -1,4 +1,4 @@
-# Stream AMG Tech Test
+# StreamAMG Tech Test
 
 Tech test - I was asked to build the hero elements & navbar for a boxing website.
 
