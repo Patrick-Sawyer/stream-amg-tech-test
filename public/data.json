@@ -1,0 +1,36 @@
+{
+    "body": {
+      "info": {
+        "fighter1Surname": "RUIZ",
+        "fighter2Surname": "JOSHUA",
+        "fightNumber": "2",
+        "fightTitle": [
+          {
+            "size": "big",
+            "text": "CLASH"
+          },
+          {
+            "size": "small",
+            "text": "ON"
+          },
+          {
+            "size": "small",
+            "text": "THE"
+          },
+          {
+            "size": "big",
+            "text": "DUNES"
+          }
+        ],
+        "subTitle": "HEAVYWEIGHT CHAMPIONSHIP OF THE WORLD",
+        "date": "SUNDAY, DECEMBER 07 2019 - 10PM",
+        "location": "DIRIYAH, SAUDI ARABIA"
+      },
+      "images": {
+        "fighterImageBackground1": "./assets/hero/fighter-bg1.png",
+        "fighterImageBackground2": "./assets/hero/fighter-bg2.png",
+        "fighterImageDesktop1": "./assets/hero/fighter1.png",
+        "fighterImageDesktop2": "./assets/hero/fighter2.png"
+      }
+    }    
+  }

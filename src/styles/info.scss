@@ -1,0 +1,196 @@
+@import url("https://use.typekit.net/dlm3sbo.css");
+$beige: #d2b085;
+
+.info-container {
+  margin: 0;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+  text-align: center;
+  min-height: 500px;
+}
+
+.info {
+  opacity: 0;
+  margin-top: 20vh;
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  transition: 1s;
+  align-items: center;
+}
+
+.fighters-text {
+  font-family: nimbus-sans-condensed;
+  letter-spacing: 0px;
+  font-weight: 900;
+  vertical-align: middle;
+  display: inline-flex;
+  flex-direction: row;
+  font-size: 100px;
+  line-height: 110px;
+  height: 100px;
+  padding: 10px;
+}
+
+.rotate {
+  font-family: nimbus-sans;
+  font-weight: 400;
+  transform: rotate(-90deg) scaleX(1.5);
+  vertical-align: middle;
+}
+
+.beige {
+  color: $beige;
+}
+
+.fight-number {
+  margin-left: 5px;
+  font-size: 106px;
+  position: relative;
+  bottom: 3px;
+}
+
+.vs {
+  margin: auto;
+  font-size: calc(3vw + 5px);
+  vertical-align: middle;
+  position: relative;
+  bottom: 5px;
+  right: 5px;
+}
+
+.small-title-words {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-text {
+  height: 60px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  max-width: 100vw;
+  width: 100vw;
+}
+
+.title-word {
+  font-family: nimbus-sans-extended;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.big {
+  font-size: 40px;
+  line-height: 50px;
+  padding: 5px;
+}
+
+.small {
+  font-size: 12px;
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+.title-outer {
+  flex-shrink: 1;
+}
+
+.sub-text {
+  font-family: nimbus-sans-extended;
+  font-weight: 700;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.red-button-inner {
+  background-color: #d43b39;
+  cursor: pointer;
+  z-index: 4;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-button-outer {
+  padding: 5px;
+  width: 100%;
+  z-index: 3;
+  height: 100%;
+  box-sizing: border-box;
+  max-width: 210px;
+  margin: auto;
+}
+
+.red-button-border {
+  border: 1px solid #d43b39;
+}
+
+.red-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+  transition: 3s;
+  opacity: 0;
+}
+
+.red-button-text {
+  font-family: nimbus-sans-condensed;
+  font-weight: 900;
+  margin: auto;
+  position: relative;
+  bottom: 2px;
+  padding: 10px;
+}
+
+.button-container {
+  flex: 1;
+  z-index: 2;
+}
+
+.or-container {
+  z-index: 2;
+}
+
+.or-outer {
+  width: 100%;
+  z-index: 3;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+  left: 2px;
+}
+
+.or-inner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.or-text {
+  font-family: nimbus-sans-extended;
+  font-weight: 400;
+  font-size: 13px;
+  position: relative;
+  bottom: 2px;
+  transform: rotate(-90deg);
+}
+
+@media screen and (min-width: 300px) {
+  .vs {
+    font-size: 15px;
+  }
+}
